@@ -1,0 +1,57 @@
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.wadahbar {
+  background: rgb(53, 52, 49);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.tombolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+ ul {
+list-style: none;
+  display: flex; /* Menyusun li ke samping secara otomatis */
+  gap: 15px;
+ }
+li{
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+color: rgb(75, 69, 69);
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(245, 147, 0);
+  padding: 5px 10px;
+  border-radius: 8px;
+  display: block;
+
+}
+
+button {
+  background-color: black;
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button a{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
